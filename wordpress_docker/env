@@ -1,0 +1,10 @@
+#mysql
+MYSQL_ROOT_PASSWORD=somewordpress
+MYSQL_DATABASE=wordpress
+MYSQL_USER=wordpress
+MYSQL_PASSWORD=wordpress
+#wordpres
+WORDPRESS_DB_HOST=18.118.46.242:3306
+WORDPRESS_DB_USER=wordpress
+WORDPRESS_DB_PASSWORD=wordpress
+WORDPRESS_DB_NAME=wordpress

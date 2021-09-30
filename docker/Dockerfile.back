@@ -1,0 +1,9 @@
+FROM ubuntu
+RUN apt update && apt install -y zip 
+RUN mkdir app && touch /app/test && echo "hello" > /app/test
+COPY ./test2 /app/test2
+COPY ./script.sh  /app/script.sh 
+WORKDIR /app
+RUN chmod +x script.sh
+ENTRYPOINT ["/bin/bash","script.sh"]
+CMD ["sleep", "10"]
