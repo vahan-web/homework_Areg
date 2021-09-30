@@ -1,5 +1,0 @@
-FROM ubuntu
-RUN apt update && apt install -y nano
-COPY ./script.sh /usr/bin/script.sh
-RUN chmod +x /usr/bin/script.sh
-ENTRYPOINT ["/bin/bash","script.sh"]

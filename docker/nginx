@@ -1,5 +1,0 @@
-FROM nginx
-
-VOLUME /var/www/html/ /var/www/html/ ro
-VOLUME /etc/nginx/conf.d/ /etc/nginx/conf.d/ ro
-
